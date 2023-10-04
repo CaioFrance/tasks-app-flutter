@@ -31,24 +31,25 @@ class _InitialScreenState extends State<InitialScreen> {
           children: const [
             Task(
               'Aprender Flutter',
-              'https://codelabs.developers.google.com/static/codelabs/flutter-flame-game/img/afb0fd6677c2a621.png?hl=pt-br',
+              'assets/images/flutter_mascot.png',
               1,
             ),
             Task(
               'Andar de bike',
-              'https://pedaladasaudavel.com.br/wp-content/uploads/2019/01/blog-cicles-jaime-dicas-para-pedalar-a-noite2-e1547063954595-840x480.jpg',
+              'assets/images/bike.jpeg',
               4,
             ),
             Task(
               'Estudar programação',
-              'https://www.valuehost.com.br/blog/wp-content/uploads/2016/10/programming-770x438.jpg.webp',
+              'assets/images/programming.jpg',
               3,
             ),
             Task(
               'Estudar Dart',
-              'https://dkrn4sk0rn31v.cloudfront.net/uploads/2022/11/ARTIGO-DART-400x280.jpg',
+              'assets/images/dart_image.jpeg',
               5,
             ),
+            SizedBox(height: 80),
           ],
         ),
       ),
